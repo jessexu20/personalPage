@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Sets background color, the site's font family and body text color */
+body {
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #767676;
+	margin: 0px;
+	padding: 0px;
+	line-height: 18px;
+}
+p {
+	margin: 0px;
+	padding: 0px 0px 15px 0px;
+}
+a {
+	color: #000;
+	text-decoration: underline;
+}
+a:hover {
+	color: #959595;
+	text-decoration: underline;
+}
+
+/* Creates a centered logo container */
+#logo_wrapper {
+	width: 1000px;
+	height: auto;
+	margin: 45px auto;
+}
+
+/* No matter of logo size you choose, this will float it to the left of the centered container
+   we used the font called "Code Bold" for the sample logo */
+#logo {
+	width: auto;
+	height: auto;
+}
+
+/* Sets menu container to stretch across screen */
+#menu_container {
+	width: 100%;
+	height: 30px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+/* Menu layout within menu conainer */
+#menu {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto;
+	text-align: left;
+	font-size: 16px;
+}
+#menu ul {
+	margin: 0px;
+	padding: 6px 0px;
+}
+#menu li {
+	display: inline;
+	padding: 0px;
+	margin: 0px 80px 0px 0px;
+	padding-bottom: 10px;
+}
+#menu a {
+	color: #000;
+	text-decoration: none;
+}
+#menu a:hover {
+	color: #959595;
+	padding-bottom: 10px;
+	border-bottom: 5px solid #959595;
+}
+
+/* Creates a centered content wrapper */
+#content_wrapper {
+	width: 1000px;
+	height: auto;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+/* Creates the content area floated to the left of the wrapper */
+#content {
+	width: 500px;
+	height: auto;
+	float: left;
+}
+
+/* Creates the picture container, which can fit images up to 490px in width */
+#picture_container {
+	width: 500px;
+	height: auto;
+	float: right;
+}
+
+/* Creates a picture class, floats it right within container and can be stacked vertically */
+.picture {
+	float: leftt;
+	padding: 0px 0px 0px 10px;
+}
+
+/* Creates the footer container */
+#footer_container {
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #000;
+	overflow: hidden;
+}
+
+/* Creates copyright content layout */
+#copyrights {
+	width: 1000px;
+	margin: 5px auto;
+}
