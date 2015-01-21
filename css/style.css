@@ -153,7 +153,8 @@
 	
 	p, ul, ol, dl, table
 	{
-		margin-bottom: 2em;
+		margin-top:  0;
+		margin-bottom: 0.25em;
 	}
 
 	br.clear
@@ -283,6 +284,20 @@
 						text-align: center;
 						border: 0;
 					}
+			
+			ul.projs
+			{
+				list-style: disc;
+				padding-left: 1em;
+				text-align :left;
+				margin-bottom: 0em;
+			}
+				ul.projs li
+				{
+					padding-left: 1em;
+					text-align :left;
+					margin-bottom:0em;
+				}	
 
 		ol
 		{
@@ -297,6 +312,22 @@
 				ol.default li
 				{
 					padding-left: 0.25em;
+				}
+			ol.projs
+			{
+				
+				list-style-type: decimal;
+				margin-top: 0;
+				margin-bottom: 1em;
+				margin-left: 0;
+				margin-right: 0;
+				padding-left: 40px;
+				text-align: left;
+			}
+				ol.projs li
+				{
+					text-align :left;
+					margin-bottom:0em;
 				}
 
 	/* Form */
