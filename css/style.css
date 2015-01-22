@@ -298,7 +298,20 @@
 					text-align :left;
 					margin-bottom:0em;
 				}	
-
+			ul.hideList{
+				list-style: disc;
+				padding-left: 1em;
+				text-align :left;
+				font-size: 0.85em;
+				margin-bottom: 0em;
+				display :none;
+			}
+			ul.hideList li
+			{
+				padding-left: 1em;
+				text-align :left;
+				margin-bottom:0em;
+			}	
 		ol
 		{
 		}
@@ -315,7 +328,7 @@
 				}
 			ol.projs
 			{
-				
+				font-size: 0.9em;
 				list-style-type: decimal;
 				margin-top: 0;
 				margin-bottom: 1em;
